@@ -1,0 +1,23 @@
+<div class="addItemForm">
+    <h2>Edit Book</h2>
+    <span class="close_icon" (click) = "close()"> <mat-icon>close</mat-icon></span>    
+    <p>
+            <mat-form-field appearance="standard">
+                <mat-label>Name of a Book</mat-label>
+                <input matInput placeholder="Book Name" [(ngModel)]="this.data.name">
+            </mat-form-field>
+        </p>
+        <p>
+            <mat-form-field appearance="standard">
+                <mat-label>Author of a Book</mat-label>
+                <input matInput placeholder="Book Author" [(ngModel)]="this.data.author">
+            </mat-form-field>
+        </p>
+        <p> 
+            <mat-form-field appearance="standard">
+                <mat-label>Price of a Book</mat-label>
+                <input matInput placeholder="Book Price " type="number" [(ngModel)]="this.data.price">
+            </mat-form-field>
+        </p>
+        <button mat-raised-button color="primary" (click) = "changeContent()">Update Book <mat-icon>edit</mat-icon></button>
+</div>

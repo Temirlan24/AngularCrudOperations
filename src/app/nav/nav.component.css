@@ -1,0 +1,39 @@
+header {
+  width: 100%;
+  height: auto;
+  background: greenyellow;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 1rem;
+}
+h1 {
+  padding-top: 0.5rem;
+  padding-left: 2rem;
+}
+ul {
+  list-style: none;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+}
+li {
+  cursor: pointer;
+}
+li:hover {
+  width: 60px;
+  background: rgb(156, 228, 206);
+  border-radius: 20px;
+}
+.container_e {
+  width: 60%;
+  display: flex;
+}
+.interface {
+  width: 20%;
+  padding-right: 2rem;
+  padding-top: 1.4rem;
+}
+.list {
+  padding-top: 1.5rem;
+  width: 45%;
+}

@@ -1,0 +1,9 @@
+* {
+  justify-content: center;
+  text-align: center;
+}
+
+.close_icon {
+  cursor: pointer;
+  float: right;
+}

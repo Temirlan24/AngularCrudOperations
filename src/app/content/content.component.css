@@ -1,0 +1,45 @@
+* {
+  margin-top: 2rem;
+  width: 80%;
+  margin: 0 auto;
+}
+.content {
+  margin-top: 2rem;
+}
+h2 {
+  text-align: center;
+  margin: 0 auto;
+}
+table {
+  margin: 0 auto;
+  border: 1px solid rgb(209, 209, 209);
+  table-layout: fixed;
+  text-align: center;
+  padding-right: 2rem;
+}
+tr {
+  border: 4px solid rgb(209, 209, 209);
+}
+
+tr:nth-child(even) {
+  background: rgb(134, 133, 133);
+}
+
+.add_btn {
+  margin-top: 1rem;
+  width: 200px;
+  float: right;
+  background: rgb(70, 70, 230);
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+}
+
+.edit_btn {
+  width: 90px;
+  background: rgb(236, 177, 68);
+}
+
+.delete_btn {
+  width: 90px;
+}

@@ -1,0 +1,9 @@
+.addItemForm {
+  text-align: center;
+  justify-content: center;
+}
+
+.close_icon {
+  float: right;
+  cursor: pointer;
+}

@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "e-commerce-project-46fa3": {
+      "hosting": {
+        "shop": [
+          "e-commerce-project-46fa3"
+        ]
+      }
+    }
+  }
+}
